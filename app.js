@@ -21,5 +21,4 @@ function countdown() {
     mins23.innerHTML = mins;
     seconds23.innerHTML = seconds;
 }
-countdown();
-setInterval(countdown, 1000);
+setInterval(countdown, 1000)
