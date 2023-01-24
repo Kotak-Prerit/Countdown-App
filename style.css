@@ -10,7 +10,7 @@ body {
     flex-direction: column;
     align-items: center;
     height: 100vh;
-    background: url(img/bg.jpg) no-repeat center;
+    background: url(https://source.unsplash.com/1600x900/?watches) no-repeat center;
     background-size: cover;
     color: #fff;
 }
@@ -20,40 +20,62 @@ img{
     width: 100%;
     opacity: 80%;
 }
-.fd{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    flex-direction: column;
-}
 .numbers{
     display: flex;
-    justify-content: space-around;
-    width: 100%;
+    width: fit-content;
+    border: 1px solid lightgray;
 }
 h1 {
     font-weight: normal;
     font-size: 50px;
-    margin: 50px 0 50px 0;
+    margin: 50px 0 20px 0;
+    text-align: center;
 }
-.countdown-container {
-    position: absolute;
+.countdown{
+    background: red;
+}
+
+.wrapper{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 70%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 .big-text {
+    text-align: center;
+    width: 100%;
     font-weight: bold;
     font-size: 50px;
     line-height: 1;
+    background: #000;
+    padding: 10px;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
 }
+
+.last{
+    border-right: none;
+}
+
+span{
+    font-size: 20px;
+    padding-inline: 15px;
+    background: red;
+    border-left: 1px solid;
+    margin-left: -1px;
+}
+
+.days{
+    border-left: none;
+    margin-left: 1px;
+}
+
 @media (max-width:500px){
     .big-text{
         font-size: 30px;
     }
-    .countdown{
-        margin: 0 15px;
+    h1{
+        font-size: 30px;
     }
 }

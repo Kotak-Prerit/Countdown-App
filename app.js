@@ -3,7 +3,7 @@ let hours = document.getElementById("hours23");
 let mins = document.getElementById("mins23");
 let seconds = document.getElementById("seconds23");
 
-let oct = "1 Jan 2023";
+let oct = "1 Jan 2024";
 
 function countdown() {
     let octDate = new Date(oct);
